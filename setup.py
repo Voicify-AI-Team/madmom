@@ -101,7 +101,5 @@ setup(
     scripts=scripts,
     install_requires=requirements,
     cmdclass={'build_ext': build_ext},
-    setup_requires=['pytest-runner'],
-    tests_require=['pytest'],
     classifiers=classifiers,
 )
